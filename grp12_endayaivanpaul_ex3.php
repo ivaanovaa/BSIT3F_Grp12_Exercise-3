@@ -12,7 +12,7 @@
     $filepath = 'group12.txt'; // file path
     echo file_get_contents("group12.txt"); 
     echo file_put_contents("group12.txt", "we are group 12");
-    echo file_exists("group12.txt") ? 'file is already exist' : 'file does not exist';
+    echo file_exists("group12.txt") ? 'The file already exists' : 'The file does not exist';
     print_r(file("group12.txt"));
     ?>
 </body>
